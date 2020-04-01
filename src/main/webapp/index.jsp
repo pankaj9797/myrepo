@@ -19,7 +19,7 @@
   <%@ page import = "java.sql.*" %>
   <%
       Connection conn = DriverManager.getConnection(
-          "jdbc:mysql://localhost:8888/ebookshop", "myuser", "xxxx"); // <== Check!
+          "jdbc:mysql://localhost:3306/ebookshop", "myuser", "root"); // <== Check!
       // Connection conn =
       //    DriverManager.getConnection("jdbc:odbc:eshopODBC");  // Access
       Statement stmt = conn.createStatement();
